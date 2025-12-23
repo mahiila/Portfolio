@@ -2,54 +2,241 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahisa Islam | Portfolio</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-
-<!-- HEADER / NAVBAR -->
 <header class="header">
     <div class="logo"><i class="fa-solid fa-leaf"></i> MI</div>
     <nav class="nav">
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="achievements.html">Achievements</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
-<!-- HERO SECTION -->
-<section class="hero">
+<!--  Home page -->
+<section class="hero" id="home">
     <div class="hero-content">
         <h1>Hello, I’m <span class="highlight">Mahisa Islam</span></h1>
         <h2>CSE Undergraduate | Aspiring Software Developer</h2>
         <p>
-            I am a passionate CSE student with a strong interest in UI/UX,
-            programming, and problem-solving.
+            I am a passionate CSE student with a strong interest in programming,
+            problem-solving, and building real-world software.
         </p>
 
-        <a href="#" class="cv-btn"><i class="fa-solid fa-download"></i> Download CV</a>
+        <a href="assets/cv/cv.pdf" class="cv-btn">
+            <i class="fa-solid fa-download"></i> Download CV
+        </a>
 
-        <!-- SOCIAL ICONS -->
         <div class="social-icons">
-            <a href="https://www.linkedin.com/in/mahisa-islam-80597b3a0"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://www.linkedin.com/in/mahisa-islam-80597b3a0"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/mahiila"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.instagram.com/mahisa_0.0_"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://x.com/mahiila49"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
 </section>
+
+<!--  About -->
+<section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card-grid">
+        <div class="glass-card">
+            <h3>Who am I?</h3>
+            <p>
+                I am a CSE undergraduate with a strong interest in programming
+                and problem-solving. I enjoy learning how software works and
+                building a solid foundation in computer science.
+            </p>
+        </div>
+
+       <div class="glass-card">
+         <h3>Skills</h3>
+         <ul>
+             <li><i class="fa-solid fa-c"></i> C</li>
+             <li><i class="fa-solid fa-code"></i> C++</li>
+             <li><i class="fa-brands fa-java"></i> Java</li>
+             <li><i class="fa-brands fa-html5"></i> HTML & CSS</li>
+         </ul>
+        </div>
+
+        <div class="glass-card">
+            <h3>Interests</h3>
+            <ul>
+                 <li><i class="fa-solid fa-laptop-code"></i> Software Development</li>
+                 <li><i class="fa-solid fa-code"></i> Programming</li>
+                 <li><i class="fa-solid fa-lightbulb"></i> Learning New Technologies</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="glass-card wide">
+        <h3>BSc in Computer Science & Engineering</h3>
+        <p>International Islamic University Chittagong (IIUC)</p>
+        <span>2024 – Present</span>
+    </div>
+
+    <div class="glass-card wide">
+        <h3>Higher Secondary Certificate</h3>
+        <p>Agrabad Mohila College — Science</p>
+        <span>2021 – 2022</span>
+    </div>
+</section>
+<!--Project-->
+<section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="card-grid">
+        <div class="image-card">
+            <img src="assets/images/movie.jpg" alt="Movie Ticket Booking">
+            <div class="card-content">
+                <h3>Movie Ticket Booking System</h3>
+                <p>This system allows users to browse movies select showtimes, and 
+                    book or purchase tickets online from home. The system is developed using Qt and C++.</p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="assets/images/hotel.jpg" alt="Hotel Management System">
+            <div class="card-content">
+                <h3>Hotel Management System</h3>
+                <p>A console-based system developed using C. It is designed to organize hotel operations such as booking rooms, checking room availability, 
+                    updating stay durations, and processing payments. </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="assets/images/pet.jpg"alt="Pet Mangement System">
+             <div class="card-content">
+                  <h3>Pet Management System</h3>
+                 <p>A console-based System that is designed to manage information related to pets and their owners in an organized and efficient manner.
+                   It is developed using C++.</p>
+             </div>
+         </div>
+    </div>
+</section>
+
+<!--Achievement-->
+<section class="section" id="achievements">
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="glass-card wide">
+        <h3>Programming Contest</h3>
+        <p>
+            Participated in an intra-university programming contest,
+             gaining experience in problem solving and competitive coding.
+        </p>
+        <span>2025</span>
+    </div>
+    <div class="glass-card wide">
+        <h3>Programming Contest</h3>
+        <p>
+            Submitted a project idea for the NextGen Hackathon 2025, focusing on real-world problem solving 
+            aligned with the United Nations Sustainable Development Goals (SDGs).
+        </p>
+    </div>
+</section>
+
+<!--Hobbies-->
+<section class="section" id="hobbies">
+    <h2 class="section-title">Hobbies</h2>
+
+    <div class="card-grid">
+        <div class="image-card small">
+            <img src="assets/images/photo.jpg" alt="Photography">
+            <div class="card-content center">
+                <h3>Photography</h3>
+                <p>Capturing moments and experimenting with photo editing.</p>
+            </div>
+        </div>
+        <div class="image-card small">
+            <img src="assets/images/travel.jpg" alt="Traveling">
+            <div class="card-content center">
+                <h3>Traveling</h3>
+                <p>Exploring new cultures and discovering inspiring places.</p>
+            </div>
+        </div>
+        <div class="image-card small">
+            <img src="assets/images/read.jpg" alt="Reading">
+            <div class="card-content center">
+                <h3>Reading</h3>
+                <p>Reading a wide range of content—from novels to tech blogs—to spark curiosity.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Publications-->
+<section class="section" id="publications">
+    <h2 class="section-title">Publications</h2>
+    <h4>Sample publications included for demonstration purposes.</h4>
+
+    <div class="glass-card wide">
+        <h3>Improving User Experience in Modern Web Applications</h3>
+        <p>Mahisa Islam </p>
+        <span>Journal of Computer Science & Applications, 2025</span>
+    </div>
+    <div class="glass-card wide">
+         <h3>A Study on Front-End Performance Optimization</h3>
+         <p>Mahisa Islam</p>
+         <span>Proceedings of the Web Technologies Conference, 2024</span>
+    </div>
+</section>
+
+<!--Contact-->
+<section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-detail">
+                <i class="fa-solid fa-envelope"></i>
+                <span>mahiila49@gmail.com</span>
+            </div>
+            <div class="contact-detail">
+                <i class="fa-solid fa-phone"></i>
+                <span>+880 1537 011637</span>
+            </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <h3>Let's get in touch. Send me a message:</h3>
+            
+            <div class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="form">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-bt">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+            </button>
+
+            <div class="form-message"></div>
+        </form>
+    </div>
+</section>
+
+<script src="contactform.js"></script>
 
 </body>
 </html>
