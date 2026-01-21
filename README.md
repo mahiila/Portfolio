@@ -16,7 +16,7 @@ https://www.figma.com/proto/u8OvzPVvuNTL8MdKp5zyAW/port?node-id=201-227&p=f&t=QU
 The live version of the project can be accessed at the following link:
 
 🔗 Live Demo Link:  
-https://mahiila.github.io/Porfolio/
+https://mahiila.github.io/Portfolio/
 
 ##  Technologies Used
 - HTML5  
@@ -51,18 +51,18 @@ The portfolio highlights several academic and personal projects, including:
 
 These projects demonstrate foundational programming knowledge and problem-solving skills.
 
-## ▶️ How to Run Locally
+## How to Run Locally
 1. Clone the repository:
-   git clone https://github.com/mahiila/Porfolio.git
+   git clone https://github.com/mahiila/Portfolio.git
 2. Navigate to the project folder:
    cd Portfolio
 3. Open the index.html file in a web browser.
 
-## 👤 Author
+## Author
 **Mahisa Islam**  
 CSE Undergraduate | Aspiring Software Developer
 
-## 📬 Contact
+## git Contact
 - **Email:** mahiila49@gmail.com  
 - **Phone:** +880 1537 011637  
 - **LinkedIn:** https://www.linkedin.com/in/mahisa-islam-80597b3a0  
@@ -70,4 +70,4 @@ CSE Undergraduate | Aspiring Software Developer
 
 ---
 
-⭐ *Thank you for visiting my portfolio!*
+ *Thank you for visiting my portfolio!*
