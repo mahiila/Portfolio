@@ -62,7 +62,7 @@ These projects demonstrate foundational programming knowledge and problem-solvin
 **Mahisa Islam**  
 CSE Undergraduate | Aspiring Software Developer
 
-## git Contact
+## Contact
 - **Email:** mahiila49@gmail.com  
 - **Phone:** +880 1537 011637  
 - **LinkedIn:** https://www.linkedin.com/in/mahisa-islam-80597b3a0  
